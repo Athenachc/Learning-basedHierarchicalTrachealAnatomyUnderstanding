@@ -1,5 +1,5 @@
 {
-    "shortTitle": "PalpAid",
+    "shortTitle": "palpaid",
     "venueLine": "arXiv • 2025",
     "title": "PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation",
     "subtitle": "A multimodal pneumatic tactile sensor equipped with a microphone and pressure sensor, converting contact force into an internal pressure differential for tissue delineation.",
@@ -46,7 +46,7 @@
   
     "video": {
       "youtubeId": "_mmzDbw0OuI",
-      "title": "PalpAid"
+      "title": "palpaid"
     },
 
   
