@@ -88,10 +88,10 @@
     "authors": [
       { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": [], "coFirst": true },
       { "name": "Ravi Prakash",        "affil": "Duke University", "photo": "assets/authors/Ravi.jpg",     "links": ["https://raprakashvi.github.io/"], "coFirst": true},
-      { "name": "Hiu Ching Cheung",    "affil": "Arizona State University", "photo": "assets/authors/Hiu.webp", "links": [] },
-      { "name": "Amy Strong",          "affil": "Duke University", "photo": "assets/authors/Amy.png", "links": [] },
+      { "name": "Hiu Ching Cheung",    "affil": "Arizona State University", "photo": "assets/authors/Hiu.webp", "links": ["https://athenachc.github.io/"] },
+      { "name": "Amy Strong",          "affil": "Duke University", "photo": "assets/authors/Amy.png", "links": ["https://sites.google.com/view/amykstrong/home"] },
       { "name": "Patrick J. Codd",     "affil": "Duke University", "photo": "assets/authors/Patrick.jpeg",  "links": ["https://www.braintoollab.com/"] },
-      { "name": "Shan Lin",            "affil": "Arizona State University", "photo": "assets/authors/Shan.jpg", "links": [] }
+      { "name": "Shan Lin",            "affil": "Arizona State University", "photo": "assets/authors/Shan.jpg", "links": ["https://marginlab.github.io/"] }
     ],
   
     "bibtex": "@misc{yuliarti2025palpaid,\n  title = {PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation},\n  author = {Yuliarti, Devi and Prakash, Ravi and Cheung, Hiu Ching and Strong, Amy and Codd, Patrick J. and Lin, Shan},\n  year = {2025},\n  eprint = {2512.19010},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  doi = {10.48550/arXiv.2512.19010}\n}"
