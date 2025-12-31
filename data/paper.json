@@ -1,52 +1,52 @@
 {
-    "shortTitle": "See, Plan, Cut",
+    "shortTitle": "PalpAid",
     "venueLine": "arXiv • 2025",
-    "title": "See, Plan, Cut: MPC-Based Autonomous Volumetric Robotic Laser Surgery with OCT Guidance",
-    "subtitle": "Closed-loop volumetric laser resection with OCT guidance via sampling-based MPC.",
-    "doi": "10.48550/arXiv.2511.17777",
-    "lastUpdated": "2025-12-30",
+    "title": "PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation",
+    "subtitle": "A multimodal pneumatic tactile sensor equipped with a microphone and pressure sensor, converting contact force into an internal pressure differential for tissue delineation.",
+    "doi": "10.48550/arXiv.2512.19010",
+    "lastUpdated": "2025-12-31",
     "footerLeft": "© 2025 Brain Tool Lab • Duke University",
   
     "buttons": [
-      { "label": "Paper (arXiv)", "href": "https://arxiv.org/abs/2511.17777", "style": "primary" },
-      { "label": "PDF", "href": "data/See_Plan_Cut.pdf", "style": "secondary" },
-      { "label": "Video", "href": "https://www.youtube.com/watch?v=FnwhNJGcEeQ", "style": "secondary" },
-      { "label": "Code", "href": "https://github.com/PASTE_OWNER/PASTE_REPO", "style": "secondary" }
+      { "label": "Paper (arXiv)", "href": "https://arxiv.org/abs/2512.19010", "style": "primary" },
+      { "label": "PDF", "href": "data/PalpAid.pdf", "style": "secondary" },
+      { "label": "Video", "href": "https://youtu.be/_mmzDbw0OuI", "style": "secondary" },
+      { "label": "Code", "href": "#", "style": "secondary" }
     ],
   
     "tags": [
-      "Image-Guided Surgery",
-      "Optical Coherence Tomography",
-      "Laser Surgery",
-      "Medical Robotics",
-      "Autonomous Systems"
+      "Pneumatic",
+      "MEMS Sensors",
+      "Acoustic",
+      "Tactile",
+      "Medical Robotics"
     ],
   
-    "affiliationsLine": "Mechanical Engineering & Materials Science. Neurosurgery. Duke University.",
+    "affiliationsLine": "¹ Duke University • ² Arizona State University",
   
     "teaser": {
-      "src": "assets/img/figures/System_Overview.png",
-      "alt": "See, Plan, Cut system overview",
-      "caption": "System overview: closed-loop robotic surgical workflow with OCT guidance."
+      "src": "assets/img/figures/Intro_Figure.png",
+      "alt": "PalpAid introduction figure",
+      "caption": "PalpAid: Multimodal pneumatic tactile sensor with adaptive palpator for compliance with soft tissue."
     },
   
-    "abstract": "Robotic laser systems offer the potential for submillimeter, non-contact, high-precision tissue resection, yet existing platforms lack volumetric planning and intraoperative feedback. We present RATS (Robot-Assisted Tissue Surgery), an intelligent opto-mechanical, OCT-guided robotic platform designed for autonomous volumetric soft tissue resection. RATS integrates macro-scale RGB-D imaging, micro-scale OCT, and a fiber-coupled surgical laser, calibrated through a multistage alignment pipeline. A super-Gaussian laser–tissue interaction model characterizes ablation crater morphology and a sampling-based MPC framework operates directly on OCT voxel data to generate constraint-aware resection trajectories with closed-loop feedback. With OCT, RATS detects subsurface structures and modifies the planner’s objective to preserve them, supporting clinically relevant scenarios in neurosurgery and complex soft tissue oncology.",
+    "abstract": "The tactile properties of tissue, such as elasticity and stiffness, often play an important role in surgical oncology when identifying tumors and pathological tissue boundaries. Though extremely valuable, robot-assisted surgery comes at the cost of reduced sensory information to the surgeon; typically, only vision is available. Sensors proposed to overcome this sensory desert are often bulky, complex, and incompatible with the surgical workflow. We present PalpAid, a multimodal pneumatic tactile sensor equipped with a microphone and pressure sensor, converting contact force into an internal pressure differential. The pressure sensor acts as an event detector, while the auditory signature captured by the microphone assists in tissue delineation. We show the design, fabrication, and assembly of sensory units with characterization tests to show robustness to use, inflation-deflation cycles, and integration with a robotic system. Finally, we show the sensor's ability to classify 3D-printed hard objects with varying infills and soft ex vivo tissues. Overall, PalpAid aims to fill the sensory gap intelligently and allow improved clinical decision-making.",
   
     "featuredFigure": {
-      "src": "assets/img/figures/RATS_Platform.png",
-      "alt": "RATS Platform",
-      "caption": "RATS platform overview."
+      "src": "assets/img/figures/Intro_Figure.png",
+      "alt": "PalpAid Introduction",
+      "caption": "PalpAid: Multimodal pneumatic tactile sensor with adaptive palpator for compliance with soft tissue."
     },
   
     "galleryFigures": [
-      { "src": "assets/img/figures/RATS_Platform.png", "alt": "RATS Platform", "caption": "RATS platform overview." },
-      { "src": "assets/img/figures/LTI_Model_Estimation.png", "alt": "LTI Model Estimation", "caption": "LTI model estimation." },
-      { "src": "assets/img/figures/Vol_Resection_Planner.png", "alt": "Volumetric Resection Planner", "caption": "Volumetric resection planner." }
+      { "src": "assets/img/figures/Intro_Figure.png", "alt": "Introduction Figure", "caption": "PalpAid: Multimodal pneumatic tactile sensor with adaptive palpator for compliance with soft tissue." },
+      { "src": "assets/img/figures/Mold.png", "alt": "Mold", "caption": "Fabrication mold for PalpAid sensor components." },
+      { "src": "assets/img/figures/Tap peak.png", "alt": "Tap Peak", "caption": "Acoustic signal analysis showing tap peak detection for tissue classification." }
     ],
   
     "video": {
-    "youtubeId": "FnwhNJGcEeQ",
-    "title": "See, Plan, Cut"
+      "youtubeId": "_mmzDbw0OuI",
+      "title": "PalpAid"
     },
 
   
@@ -55,12 +55,6 @@
         "name": "Brain Tool Lab",
         "logoSrc": "assets/img/logo/BTL_out_gif.gif",
         "href": "https://www.braintoollab.com/",
-        "position": "center-top"
-      },
-      {
-        "name": "Bridgeman Lab",
-        "logoSrc": "assets/img/logo/BridgemanLab.svg",
-        "href": "https://bridgeman.pratt.duke.edu/",
         "position": "center-top"
       },
       {
@@ -80,22 +74,26 @@
         "logoSrc": "assets/img/logo/duke.png",
         "href": "https://www.duke.edu",
         "position": "center-bottom"
+      },
+      {
+        "name": "Arizona State University",
+        "logoSrc": "assets/img/logo/ASU-logo.png",
+        "href": "https://www.asu.edu",
+        "position": "right-bottom"
       }
     ],
   
-    "acknowledgements": "The authors wish to thank Aislinn Hurley and the members of the Brain Tool Lab for support and feedback.",
+    "acknowledgements": "The authors would like to acknowledge the help of Danyi Chen in setting up the palpation experiment and the members of the Brain Tool Lab for their feedback and comments.",
   
     "authors": [
-      { "name": "Ravi Prakash",        "affil": "Duke University", "photo": "assets/authors/Ravi.jpg",     "links": ["https://raprakashvi.github.io/"], "coFirst": true },
-      { "name": "Vincent Y. Wang",     "affil": "Duke University", "photo": "assets/authors/Vincent.jpg",  "links": ["https://bridgeman.pratt.duke.edu/people/vincent-wang"], "coFirst": true },
-      { "name": "Arpit Mishra",        "affil": "Duke University", "photo": "assets/authors/Arpit.jpg",    "links": ["https://scholar.google.com/citations?user=vEc9m44AAAAJ&hl=en"] },
-      { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": [] },
-      { "name": "Pei Zhong",           "affil": "Duke University", "photo": "assets/authors/Pei.jpg",      "links": ["https://mems.duke.edu/people/pei-zhong/"] },
-      { "name": "Ryan P. McNabb",      "affil": "Duke University", "photo": "assets/authors/Ryan.jpg",     "links": ["https://dukeeyecenter.duke.edu/profile/ryan-mcnabb"] },
-      { "name": "Patrick J. Codd",     "affil": "Duke University", "photo": "assets/authors/Patrick.jpeg",  "links": ["https://www.braintoollab.com/"], "coAdvisor": true },
-      { "name": "Leila J. Bridgeman",  "affil": "Duke University", "photo": "assets/authors/Leila.jpg",    "links": ["https://bridgeman.pratt.duke.edu/"], "coAdvisor": true }
+      { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": [], "coFirst": true },
+      { "name": "Ravi Prakash",        "affil": "Duke University", "photo": "assets/authors/Ravi.jpg",     "links": ["https://raprakashvi.github.io/"], "coFirst": true},
+      { "name": "Hiu Ching Cheung",    "affil": "Arizona State University", "photo": "assets/authors/Hiu.webp", "links": [] },
+      { "name": "Amy Strong",          "affil": "Duke University", "photo": "assets/authors/Amy.png", "links": [] },
+      { "name": "Patrick J. Codd",     "affil": "Duke University", "photo": "assets/authors/Patrick.jpeg",  "links": ["https://www.braintoollab.com/"] },
+      { "name": "Shan Lin",            "affil": "Arizona State University", "photo": "assets/authors/Shan.jpg", "links": [] }
     ],
   
-    "bibtex": "@misc{prakash2025seeplancut,\n  title = {See, Plan, Cut: MPC-Based Autonomous Volumetric Robotic Laser Surgery with OCT Guidance},\n  author = {Prakash, Ravi and Wang, Vincent Y. and Mishra, Arpit and Yuliarti, Devi and Zhong, Pei and McNabb, Ryan P. and Codd, Patrick J. and Bridgeman, Leila J.},\n  year = {2025},\n  eprint = {2511.17777},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  doi = {10.48550/arXiv.2511.17777}\n}"
+    "bibtex": "@misc{yuliarti2025palpaid,\n  title = {PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation},\n  author = {Yuliarti, Devi and Prakash, Ravi and Cheung, Hiu Ching and Strong, Amy and Codd, Patrick J. and Lin, Shan},\n  year = {2025},\n  eprint = {2512.19010},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  doi = {10.48550/arXiv.2512.19010}\n}"
   }
   
