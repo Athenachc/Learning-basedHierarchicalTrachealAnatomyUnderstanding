@@ -19,8 +19,23 @@ function setupYouTubeThumbnailPlayer(video) {
     const maxres = `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
     const hq = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
   
+    // Set up error handler before setting src
+    thumbImg.onerror = function() {
+      // If maxres fails, try hqdefault
+      if (thumbImg.src === maxres || thumbImg.src.includes('maxresdefault')) {
+        thumbImg.src = hq;
+      }
+    };
+    
+    // Also check if image loads successfully
+    thumbImg.onload = function() {
+      // If maxres loaded but image appears broken (naturalWidth is 0), try hqdefault
+      if (thumbImg.naturalWidth === 0 && thumbImg.src === maxres) {
+        thumbImg.src = hq;
+      }
+    };
+  
     thumbImg.src = maxres;
-    thumbImg.onerror = () => { thumbImg.src = hq; };
   
     thumbBtn.addEventListener("click", () => {
       thumbBtn.style.display = "none";
