@@ -2,7 +2,7 @@
     "shortTitle": "palpaid",
     "venueLine": "arXiv • 2025",
     "title": "PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation",
-    "subtitle": "A multimodal pneumatic tactile sensor equipped with a microphone and pressure sensor, converting contact force into an internal pressure differential for tissue delineation.",
+    "subtitle": "Restoring touch in robot-assisted surgery with a low-profile pneumatic sensor",
     "doi": "10.48550/arXiv.2512.19010",
     "lastUpdated": "2025-12-31",
     "footerLeft": "© 2025 Brain Tool Lab • Duke University",
@@ -22,7 +22,7 @@
       "Medical Robotics"
     ],
   
-    "affiliationsLine": "¹ Duke University • ² Arizona State University",
+    "affiliationsLine": "Duke University • Arizona State University",
   
     "teaser": {
       "src": "assets/img/figures/Intro_Figure.png",
@@ -79,7 +79,7 @@
         "name": "Arizona State University",
         "logoSrc": "assets/img/logo/ASU-logo.png",
         "href": "https://www.asu.edu",
-        "position": "right-bottom"
+        "position": "center-bottom"
       }
     ],
   
