@@ -1,24 +1,24 @@
 {
     "shortTitle": "palpaid",
-    "venueLine": "arXiv • 2025",
+    "venueLine": "IEEE-RAS RoboSoft • 2026",
     "title": "PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation",
     "subtitle": "Restoring touch in robot-assisted surgery with a low-profile pneumatic sensor",
     "doi": "10.48550/arXiv.2512.19010",
     "lastUpdated": "2025-12-31",
-    "footerLeft": "© 2025 Brain Tool Lab • Duke University",
+    "footerLeft": "© 2026 Brain Tool Lab • Duke University",
   
     "buttons": [
       { "label": "Paper (arXiv)", "href": "https://arxiv.org/abs/2512.19010", "style": "primary" },
       { "label": "PDF", "href": "data/PalpAid.pdf", "style": "secondary" },
       { "label": "Video", "href": "https://youtu.be/_mmzDbw0OuI", "style": "secondary" },
-      { "label": "Code", "href": "#", "style": "secondary" }
+      { "label": "Code", "href": "https://github.com/raprakashvi/palpaid_robosoft", "style": "secondary" }
     ],
   
     "tags": [
       "Pneumatic",
       "MEMS Sensors",
       "Acoustic",
-      "Tactile",
+      "Tactile Sensing",
       "Medical Robotics"
     ],
   
@@ -86,7 +86,7 @@
     "acknowledgements": "The authors would like to acknowledge the help of Danyi Chen in setting up the palpation experiment and the members of the Brain Tool Lab for their feedback and comments.",
   
     "authors": [
-      { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": [], "coFirst": true },
+      { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": ["https://www.linkedin.com/in/deviyuliarti/"], "coFirst": true },
       { "name": "Ravi Prakash",        "affil": "Duke University", "photo": "assets/authors/Ravi.jpg",     "links": ["https://raprakashvi.github.io/"], "coFirst": true},
       { "name": "Hiu Ching Cheung",    "affil": "Arizona State University", "photo": "assets/authors/Hiu.webp", "links": ["https://athenachc.github.io/"] },
       { "name": "Amy Strong",          "affil": "Duke University", "photo": "assets/authors/Amy.png", "links": ["https://sites.google.com/view/amykstrong/home"] },
