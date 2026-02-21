@@ -80,6 +80,12 @@
         "logoSrc": "assets/img/logo/ASU-logo.png",
         "href": "https://www.asu.edu",
         "position": "center-bottom"
+      },
+      {
+        "name": "MARGIN Lab",
+        "logoSrc": "assets/img/logo/Margin_Lab.jpeg",
+        "href": "https://marginlab.github.io/",
+        "position": "center-bottom"
       }
     ],
   
