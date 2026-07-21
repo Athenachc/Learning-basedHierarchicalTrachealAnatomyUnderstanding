@@ -64,13 +64,13 @@
         "name": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)",
         "logoSrc": "assets/img/logo/cair-cas.png",
         "href": "https://www.cair-cas.org.hk",
-        "position": "center-bottom"
+        "position": "center-top"
       },
       {
         "name": "REN Lab",
-        "logoSrc": "assets/img/logo/ren-lab.png",
+        "logoSrc": "assets/img/logo/ren_lab.png",
         "href": "http://www.labren.org/mm/",
-        "position": "center-bottom"
+        "position": "center-top"
       }
     ],
   
