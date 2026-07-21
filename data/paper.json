@@ -8,7 +8,7 @@
     "footerLeft": "© 2026 REN Lab • The Chinese University of Hong Kong",
   
     "buttons": [
-      { "label": "PDF", "href": "data/throat_cartilages_ultrasound_ICCBS2026.pdf", "style": "secondary" },
+      { "label": "PDF", "href": "data/throat_cartilages_ultrasound_ICCBS2026_updated.pdf", "style": "secondary" },
       { "label": "Video", "href": "https://youtu.be/hUIowPC2KQ8", "style": "secondary" },
       { "label": "Code", "href": "https://github.com/Athenachc/throatUltrasoundDetection", "style": "secondary" }
     ],
