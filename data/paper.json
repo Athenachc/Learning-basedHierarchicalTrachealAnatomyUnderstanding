@@ -80,6 +80,6 @@
       { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong |\n SLAI Shenzhen Loop Area Institute", "photo": "assets/authors/prof_ren.jpg", "links": ["http://www.labren.org/mm/principal-investigator/"] }
     ],
   
-    "bibtex": "@inproceedings{cheung2026learning,\n  title = {Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration Annotations for Ultrasound Robots},\n  author = {Cheung, Hiu Ching and Yue, Wenchao and Han, Zhengran and Chen, Mingcong and Cao, Guanglin and Liu, Hongbin and Ren, Hongliang},\n booktitle = {2026 International Conference on Cyborg and Bionic Systems}, \n year = {2026},\n month = {July}, \n note = {To appear}\n}"
+    "bibtex": "@inproceedings{cheung2026learning,\n  title = {Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration \n Annotations for Ultrasound Robots},\n  author = {Cheung, Hiu Ching and Yue, Wenchao and Han, Zhengran and Chen, Mingcong and Cao, Guanglin \n and Liu, Hongbin and Ren, Hongliang},\n booktitle = {2026 International Conference on Cyborg and Bionic Systems}, \n year = {2026},\n month = {July}, \n note = {To appear}\n}"
   }
   
