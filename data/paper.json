@@ -30,15 +30,21 @@
     "abstract": "Tracheostomy requires precise localization of the tracheal incision site; however, conventional manual palpation is subjective and often unreliable, while ultrasound utility remains operator-dependent. This work presents a learning-based framework for hierarchical tracheal anatomy understanding, designed specifically for ultrasound-guided robotic systems. We propose a two-stage perception pipeline integrating a YOLOv8n localization backbone with a sparse, prompt-optimized SAM2 decoder to achieve high-fidelity segmentation from sparse surgical annotations. Our hybrid training strategy, bridging curated laboratory data with unconstrained sequences, ensures clinical robustness. Experimental benchmarks demonstrate that this decoupled architecture effectively balances generalization, precision, and efficiency. The YOLOv8n and SAM2 framework achieves a consistent Mean Dice Similarity Coefficient (DSC) of 0.777 across both controlled and generalized domains. This significantly outperforms U-Net baselines, which often suffer from anatomical fragmentation and performance degradation (Generalization DSC ≤ 0.494). By constraining mask decoding to targeted, sparse regions of interest, our model achieves a throughput of 6.92 FPS, which is vital for closed-loop robotic teleoperation. This study confirms that a robust hierarchical understanding of tracheal anatomy can be derived by coupling lightweight localization with foundation-scale visual models. Our framework establishes a scalable foundation for standardized, autonomous surgical assistance, effectively navigating the variability of real-world ultrasound to enhance the safety and precision of robotic-assisted tracheostomy.",
   
     "featuredFigure": {
-      "src": "assets/img/figures/Intro_Figure.png",
-      "alt": "PalpAid Introduction",
-      "caption": "PalpAid: Multimodal pneumatic tactile sensor with adaptive palpator for compliance with soft tissue."
+      "src": "assets/img/figures/system_overview.png",
+      "alt": "System Overview",
+      "caption": "System overview of the proposed framework for hierarchical tracheal anatomy understanding."
     },
   
     "galleryFigures": [
-      { "src": "assets/img/figures/Intro_Figure.png", "alt": "Introduction Figure", "caption": "PalpAid: Multimodal pneumatic tactile sensor with adaptive palpator for compliance with soft tissue." },
-      { "src": "assets/img/figures/Mold.png", "alt": "Mold", "caption": "Fabrication mold for PalpAid sensor components." },
-      { "src": "assets/img/figures/Tap peak.png", "alt": "Tap Peak", "caption": "Acoustic signal analysis showing tap peak detection for tissue classification." }
+      { "src": "assets/img/figures/system_overview.png", "alt": "System Overview", "caption": "System overview of the proposed framework for hierarchical tracheal anatomy understanding." },
+      { "src": "assets/img/figures/two-stage_detection-guided_pipeline.png", "alt": "two-stage_detection-guided_pipeline", "caption": "Detailed architecture of the two-stage detection-guided pipeline." },
+      { "src": "assets/img/figures/TC_CC_Tn_examples.png", "alt": "TC_CC_Tn_examples", "caption": "Examples of the hierarchical reasoning logic for upper airway landmark tracking." },
+      { "src": "assets/img/figures/yolo_sam2_in-house_v3.png", "alt": "yolo_sam2_in-house", "caption": "Visualization of segmentation outputs on in-house test frames across different YOLO backbones paired with SAM2, trained on both in-house and hybrid datasets." },
+      { "src": "assets/img/figures/yolo_sam2_web-source_v3.png", "alt": "yolo_sam2_web-source", "caption": "Visualization of segmentation outputs on web-sourced test frames across different YOLO backbones paired with SAM2, trained on both in-house and hybrid datasets." },
+      { "src": "assets/img/figures/yolo_sam2_mean_dice_latency_v3.png", "alt": "yolo_sam2_mean_dice_latency", "caption": "(a) Mean DSC Comparison of the YOLO+SAM2 Architecture under Hybrid and In-House Training Configurations. (b) Latency–Accuracy Trade-off of the YOLO + SAM2 Architecture under Hybrid and In-House Training Configurations." },
+      { "src": "assets/img/figures/yolo_vs_unet_in-house_v4.png", "alt": "yolo_vs_unet_in-house", "caption": "Visualization of segmentation outputs on in-house test frames across different architectural paradigms: YOLO paired with SAM2, YOLO paired with U-Net, and standalone U-Net, trained on both in-house and hybrid datasets." },
+      { "src": "assets/img/figures/yolo_vs_unet_online_v6.png", "alt": "yolo_vs_unet_online", "caption": "Visualization of segmentation outputs on web-sourced test frames across different architectural paradigms: YOLO paired with SAM2, YOLO paired with U-Net, and standalone U-Net, trained on both in-house and hybrid datasets." },
+      { "src": "assets/img/figures/yolo_unet_mean_dice_latency_v2.png", "alt": "yolo_unet_mean_dice_latency", "caption": "(a) Mean DSC Comparison of the Proposed YOLOv8n + SAM2 Architecture with YOLOv8n + U-Net and U-Net Baselines. (b) Latency–Accuracy Trade-off of the Proposed YOLOv8n + SAM2 Architecture vs. YOLOv8n + U-Net and U-Net Baselines." },
     ],
   
     "video": {
