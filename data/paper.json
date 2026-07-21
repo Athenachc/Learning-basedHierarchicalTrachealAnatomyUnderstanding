@@ -49,22 +49,28 @@
   
     "institutions": [
       {
-        "name": "Duke University",
+        "name": "The Chinese University of Hong Kong",
         "logoSrc": "assets/img/logo/duke.png",
-        "href": "https://www.duke.edu",
-        "position": "center-bottom"
-      },
-      {
-        "name": "Arizona State University",
-        "logoSrc": "assets/img/logo/ASU-logo.png",
-        "href": "https://www.asu.edu",
-        "position": "center-bottom"
-      },
-      {
-        "name": "MARGIN Lab",
-        "logoSrc": "assets/img/logo/Margin_Lab.jpeg",
-        "href": "https://marginlab.github.io/",
+        "href": "https://www.cuhk.edu.hk/english/index.html",
         "position": "center-top"
+      },
+      {
+        "name": "SLAI Shenzhen Loop Area Institute",
+        "logoSrc": "assets/img/logo/slai.png",
+        "href": "https://www.slai.edu.cn/en",
+        "position": "center-top"
+      },
+      {
+        "name": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)",
+        "logoSrc": "assets/img/logo/cair-cas.png",
+        "href": "https://www.cair-cas.org.hk",
+        "position": "center-bottom"
+      },
+      {
+        "name": "REN Lab",
+        "logoSrc": "assets/img/logo/ren-lab.png",
+        "href": "http://www.labren.org/mm/",
+        "position": "center-bottom"
       }
     ],
   
