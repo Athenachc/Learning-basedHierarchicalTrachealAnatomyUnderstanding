@@ -77,7 +77,7 @@
       { "name": "Mingcong Chen",          "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://mingcongchen.netlify.app"] },
       { "name": "Guanglin Cao",     "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "",  "links": ["https://scholar.google.com/citations?user=HRKQlocAAAAJ&hl=en"] },
       { "name": "Hongbin Liu",            "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://www.cair-cas.org.hk/article/29"] },
-      { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong | SLAI Shenzhen Loop Area Institute", "photo": "assets/authors/prof_ren.jpg", "links": ["http://www.labren.org/mm/principal-investigator/"] },
+      { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong | SLAI Shenzhen Loop Area Institute", "photo": "assets/authors/prof_ren.jpg", "links": ["http://www.labren.org/mm/principal-investigator/"] }
     ],
   
     "bibtex": "@inproceedings{cheung2026learning,\n  title = {Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration Annotations for Ultrasound Robots},\n  author = {Cheung, Hiu Ching and Yue, Wenchao and Han, Zhengran and Chen, Mingcong and Cao, Guanglin and Liu, Hongbin and Ren, Hongliang},\n booktitle = {2026 International Conference on Cyborg and Bionic Systems}, \n year = {2026},\n month = {July}, \n note = {To appear}\n}"
