@@ -71,14 +71,15 @@
     "acknowledgements": "This work was supported in part by the Ministry of Science and Technology (MOST) of China under Grant numbers 2025YFE0122500 and 2024YFE0216200; the Innovation and Technology Fund (ITF) of the Hong Kong SAR under Grant number MHP/185/24; the Hong Kong Research Grants Council (RGC) General Research Fund (GRF) under Grant numbers 14216022, 14204524, 14203323, and 14206125; the Research Impact Fund (RIF) under Grant number R4020-22; and the RGC Strategic Topics Grant (STG) under Grant number 1/M-405/25-N.",
   
     "authors": [
-      { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": ["https://www.linkedin.com/in/deviyuliarti/"], "coFirst": true },
-      { "name": "Ravi Prakash",        "affil": "Duke University", "photo": "assets/authors/Ravi.jpg",     "links": ["https://raprakashvi.github.io/"], "coFirst": true},
-      { "name": "Hiu Ching Cheung",    "affil": "Arizona State University", "photo": "assets/authors/Hiu.webp", "links": ["https://athenachc.github.io/"] },
-      { "name": "Amy Strong",          "affil": "Duke University", "photo": "assets/authors/Amy.png", "links": ["https://sites.google.com/view/amykstrong/home"] },
-      { "name": "Patrick J. Codd",     "affil": "Duke University", "photo": "assets/authors/Patrick.jpeg",  "links": ["https://www.braintoollab.com/"] },
-      { "name": "Shan Lin",            "affil": "Arizona State University", "photo": "assets/authors/Shan.jpg", "links": ["https://marginlab.github.io/"] }
+      { "name": "Hiu Ching Cheung",       "affil": "The Chinese University of Hong Kong", "photo": "assets/authors/Hiu.webp",     "links": ["https://athenachc.github.io/"]},
+      { "name": "Wenchao Yue",        "affil": "The Chinese University of Hong Kong", "photo": "",     "links": ["https://chadyue-sng.github.io/"]},
+      { "name": "Zhengran Han",    "affil": "Imperial College London", "photo": "", "links": ["https://www.linkedin.com/in/zhengran-han-2a3445332/"] },
+      { "name": "Mingcong Chen",          "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://mingcongchen.netlify.app"] },
+      { "name": "Guanglin Cao",     "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "",  "links": ["https://scholar.google.com/citations?user=HRKQlocAAAAJ&hl=en"] },
+      { "name": "Hongbin Liu",            "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://www.cair-cas.org.hk/article/29"] },
+      { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong | SLAI Shenzhen Loop Area Institute", "photo": "", "links": ["http://www.labren.org/mm/principal-investigator/"] },
     ],
   
-    "bibtex": "@misc{yuliarti2025palpaid,\n  title = {PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation},\n  author = {Yuliarti, Devi and Prakash, Ravi and Cheung, Hiu Ching and Strong, Amy and Codd, Patrick J. and Lin, Shan},\n  year = {2025},\n  eprint = {2512.19010},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  doi = {10.48550/arXiv.2512.19010}\n}"
+    "bibtex": "@inproceedings{cheung2026learning,\n  title = {Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration Annotations for Ultrasound Robots},\n  author = {Cheung, Hiu Ching and Yue, Wenchao and Han, Zhengran and Chen, Mingcong and Cao, Guanglin and Liu, Hongbin and Ren, Hongliang},\n booktitle = {2026 International Conference on Cyborg and Bionic Systems}, \n year = {2026},\n month = {July}, \n note = {To appear}\n}"
   }
   
