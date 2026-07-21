@@ -8,8 +8,8 @@
     "footerLeft": "© 2026 REN Lab • The Chinese University of Hong Kong",
   
     "buttons": [
-      { "label": "PDF", "href": "data/throat_cartilages_ultrasound_ICCBS2026_updated.pdf", "style": "secondary" },
-      { "label": "Video", "href": "https://youtu.be/hUIowPC2KQ8", "style": "secondary" },
+      { "label": "PDF", "href": "data/throat_cartilages_ultrasound_ICCBS2026_updated_v2.pdf", "style": "secondary" },
+      { "label": "Video", "href": "https://youtu.be/tR045n_HeVg", "style": "secondary" },
       { "label": "Code", "href": "https://github.com/Athenachc/throatUltrasoundDetection", "style": "secondary" }
     ],
   
@@ -48,7 +48,7 @@
     ],
   
     "video": {
-      "youtubeId": "hUIowPC2KQ8",
+      "youtubeId": "tR045n_HeVg",
       "title": "Learning-based Hierarchical Tracheal Anatomy Understanding"
     },
 
