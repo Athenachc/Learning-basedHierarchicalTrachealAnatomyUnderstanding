@@ -71,13 +71,13 @@
     "acknowledgements": "This work was supported in part by the Ministry of Science and Technology (MOST) of China under Grant numbers 2025YFE0122500 and 2024YFE0216200; the Innovation and Technology Fund (ITF) of the Hong Kong SAR under Grant number MHP/185/24; the Hong Kong Research Grants Council (RGC) General Research Fund (GRF) under Grant numbers 14216022, 14204524, 14203323, and 14206125; the Research Impact Fund (RIF) under Grant number R4020-22; and the RGC Strategic Topics Grant (STG) under Grant number 1/M-405/25-N.",
   
     "authors": [
-      { "name": "Hiu Ching Cheung",       "affil": "The Chinese University of Hong Kong", "photo": "assets/authors/Hiu.webp",     "links": ["https://athenachc.github.io/"]},
+      { "name": "Hiu Ching Cheung",       "affil": "The Chinese University of Hong Kong", "photo": "assets/authors/athena.jpg",     "links": ["https://athenachc.github.io/"]},
       { "name": "Wenchao Yue",        "affil": "The Chinese University of Hong Kong", "photo": "",     "links": ["https://chadyue-sng.github.io/"]},
       { "name": "Zhengran Han",    "affil": "Imperial College London", "photo": "", "links": ["https://www.linkedin.com/in/zhengran-han-2a3445332/"] },
       { "name": "Mingcong Chen",          "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://mingcongchen.netlify.app"] },
       { "name": "Guanglin Cao",     "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "",  "links": ["https://scholar.google.com/citations?user=HRKQlocAAAAJ&hl=en"] },
       { "name": "Hongbin Liu",            "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://www.cair-cas.org.hk/article/29"] },
-      { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong | SLAI Shenzhen Loop Area Institute", "photo": "", "links": ["http://www.labren.org/mm/principal-investigator/"] },
+      { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong | SLAI Shenzhen Loop Area Institute", "photo": "assets/authors/prof_ren.jpg", "links": ["http://www.labren.org/mm/principal-investigator/"] },
     ],
   
     "bibtex": "@inproceedings{cheung2026learning,\n  title = {Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration Annotations for Ultrasound Robots},\n  author = {Cheung, Hiu Ching and Yue, Wenchao and Han, Zhengran and Chen, Mingcong and Cao, Guanglin and Liu, Hongbin and Ren, Hongliang},\n booktitle = {2026 International Conference on Cyborg and Bionic Systems}, \n year = {2026},\n month = {July}, \n note = {To appear}\n}"
