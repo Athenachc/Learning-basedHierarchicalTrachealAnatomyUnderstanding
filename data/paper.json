@@ -44,7 +44,7 @@
       { "src": "assets/img/figures/yolo_sam2_mean_dice_latency_v3.png", "alt": "yolo_sam2_mean_dice_latency", "caption": "(a) Mean DSC Comparison of the YOLO+SAM2 Architecture under Hybrid and In-House Training Configurations. (b) Latency–Accuracy Trade-off of the YOLO + SAM2 Architecture under Hybrid and In-House Training Configurations." },
       { "src": "assets/img/figures/yolo_vs_unet_in-house_v4.png", "alt": "yolo_vs_unet_in-house", "caption": "Visualization of segmentation outputs on in-house test frames across different architectural paradigms: YOLO paired with SAM2, YOLO paired with U-Net, and standalone U-Net, trained on both in-house and hybrid datasets." },
       { "src": "assets/img/figures/yolo_vs_unet_online_v6.png", "alt": "yolo_vs_unet_online", "caption": "Visualization of segmentation outputs on web-sourced test frames across different architectural paradigms: YOLO paired with SAM2, YOLO paired with U-Net, and standalone U-Net, trained on both in-house and hybrid datasets." },
-      { "src": "assets/img/figures/yolo_unet_mean_dice_latency_v2.png", "alt": "yolo_unet_mean_dice_latency", "caption": "(a) Mean DSC Comparison of the Proposed YOLOv8n + SAM2 Architecture with YOLOv8n + U-Net and U-Net Baselines. (b) Latency–Accuracy Trade-off of the Proposed YOLOv8n + SAM2 Architecture vs. YOLOv8n + U-Net and U-Net Baselines." },
+      { "src": "assets/img/figures/yolo_unet_mean_dice_latency_v2.png", "alt": "yolo_unet_mean_dice_latency", "caption": "(a) Mean DSC Comparison of the Proposed YOLOv8n + SAM2 Architecture with YOLOv8n + U-Net and U-Net Baselines. (b) Latency–Accuracy Trade-off of the Proposed YOLOv8n + SAM2 Architecture vs. YOLOv8n + U-Net and U-Net Baselines." }
     ],
   
     "video": {
