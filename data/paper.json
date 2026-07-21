@@ -72,11 +72,11 @@
   
     "authors": [
       { "name": "Hiu Ching Cheung",       "affil": "The Chinese University of Hong Kong", "photo": "assets/authors/athena.jpg",     "links": ["https://athenachc.github.io/"]},
-      { "name": "Wenchao Yue",        "affil": "The Chinese University of Hong Kong", "photo": "",     "links": ["https://chadyue-sng.github.io/"]},
-      { "name": "Zhengran Han",    "affil": "Imperial College London", "photo": "", "links": ["https://www.linkedin.com/in/zhengran-han-2a3445332/"] },
-      { "name": "Mingcong Chen",          "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://mingcongchen.netlify.app"] },
-      { "name": "Guanglin Cao",     "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "",  "links": ["https://scholar.google.com/citations?user=HRKQlocAAAAJ&hl=en"] },
-      { "name": "Hongbin Liu",            "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "", "links": ["https://www.cair-cas.org.hk/article/29"] },
+      { "name": "Wenchao Yue",        "affil": "The Chinese University of Hong Kong", "photo": "assets/authors/wenchao.jpeg",     "links": ["https://chadyue-sng.github.io/"]},
+      { "name": "Zhengran Han",    "affil": "Imperial College London", "photo": "assets/authors/zhengran.jpeg", "links": ["https://www.linkedin.com/in/zhengran-han-2a3445332/"] },
+      { "name": "Mingcong Chen",          "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "assets/authors/mingcong.jpg", "links": ["https://mingcongchen.netlify.app"] },
+      { "name": "Guanglin Cao",     "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "assets/authors/guanglin.jpeg",  "links": ["https://scholar.google.com/citations?user=HRKQlocAAAAJ&hl=en"] },
+      { "name": "Hongbin Liu",            "affil": "Centre for Artificial Intelligence and Robotics (CAIR-CAS)", "photo": "assets/authors/prof_liu.png", "links": ["https://www.cair-cas.org.hk/article/29"] },
       { "name": "Hongliang Ren",            "affil": "The Chinese University of Hong Kong | SLAI Shenzhen Loop Area Institute", "photo": "assets/authors/prof_ren.jpg", "links": ["http://www.labren.org/mm/principal-investigator/"] }
     ],
   
