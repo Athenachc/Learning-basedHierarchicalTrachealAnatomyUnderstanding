@@ -1,28 +1,26 @@
 {
-    "shortTitle": "palpaid",
-    "venueLine": "IEEE-RAS RoboSoft • 2026",
-    "title": "PalpAid: Multimodal Pneumatic Tactile Sensor for Tissue Palpation",
-    "subtitle": "Restoring touch in robot-assisted surgery with a low-profile pneumatic sensor",
-    "doi": "10.48550/arXiv.2512.19010",
-    "lastUpdated": "2025-12-31",
-    "footerLeft": "© 2026 Brain Tool Lab • Duke University",
+    "shortTitle": "Learning-based Hierarchical Tracheal Anatomy Understanding",
+    "venueLine": "ICCBS • 2026",
+    "title": "Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration Annotations for Ultrasound Robots",
+    "subtitle": "A Lightweight YOLO and SAM2 Framework for Robotic-Assisted Tracheostomy",
+    "doi": "",
+    "lastUpdated": "2026-07-21",
+    "footerLeft": "© 2026 REN Lab • The Chinese University of Hong Kong",
   
     "buttons": [
       { "label": "Paper (arXiv)", "href": "https://arxiv.org/abs/2512.19010", "style": "primary" },
       { "label": "PDF", "href": "data/PalpAid.pdf", "style": "secondary" },
       { "label": "Video", "href": "https://youtu.be/_mmzDbw0OuI", "style": "secondary" },
-      { "label": "Code", "href": "https://github.com/raprakashvi/palpaid_robosoft", "style": "secondary" }
+      { "label": "Code", "href": "https://github.com/Athenachc/throatUltrasoundDetection", "style": "secondary" }
     ],
   
     "tags": [
-      "Pneumatic",
-      "MEMS Sensors",
-      "Acoustic",
-      "Tactile Sensing",
-      "Medical Robotics"
+      "Robotic system solutions for lifescience monitoring and knowledge",
+      "Biomimetic robotics",
+      "Biomedical imaging"
     ],
   
-    "affiliationsLine": "Duke University • Arizona State University",
+    "affiliationsLine": "The Chinese University of Hong Kong • Centre for Artificial Intelligence and Robotics (CAIR-CAS)",
   
     "teaser": {
       "src": "assets/img/figures/Intro_Figure.png",
@@ -30,7 +28,7 @@
       "caption": "PalpAid: Multimodal pneumatic tactile sensor with adaptive palpator for compliance with soft tissue."
     },
   
-    "abstract": "The tactile properties of tissue, such as elasticity and stiffness, often play an important role in surgical oncology when identifying tumors and pathological tissue boundaries. Though extremely valuable, robot-assisted surgery comes at the cost of reduced sensory information to the surgeon; typically, only vision is available. Sensors proposed to overcome this sensory desert are often bulky, complex, and incompatible with the surgical workflow. We present PalpAid, a multimodal pneumatic tactile sensor equipped with a microphone and pressure sensor, converting contact force into an internal pressure differential. The pressure sensor acts as an event detector, while the auditory signature captured by the microphone assists in tissue delineation. We show the design, fabrication, and assembly of sensory units with characterization tests to show robustness to use, inflation-deflation cycles, and integration with a robotic system. Finally, we show the sensor's ability to classify 3D-printed hard objects with varying infills and soft ex vivo tissues. Overall, PalpAid aims to fill the sensory gap intelligently and allow improved clinical decision-making.",
+    "abstract": "Tracheostomy requires precise localization of the tracheal incision site; however, conventional manual palpation is subjective and often unreliable, while ultrasound utility remains operator-dependent. This work presents a learning-based framework for hierarchical tracheal anatomy understanding, designed specifically for ultrasound-guided robotic systems. We propose a two-stage perception pipeline integrating a YOLOv8n localization backbone with a sparse, prompt-optimized SAM2 decoder to achieve high-fidelity segmentation from sparse surgical annotations. Our hybrid training strategy, bridging curated laboratory data with unconstrained sequences, ensures clinical robustness. Experimental benchmarks demonstrate that this decoupled architecture effectively balances generalization, precision, and efficiency. The YOLOv8n and SAM2 framework achieves a consistent Mean Dice Similarity Coefficient (DSC) of 0.777 across both controlled and generalized domains. This significantly outperforms U-Net baselines, which often suffer from anatomical fragmentation and performance degradation (Generalization DSC ≤ 0.494). By constraining mask decoding to targeted, sparse regions of interest, our model achieves a throughput of 6.92 FPS, which is vital for closed-loop robotic teleoperation. This study confirms that a robust hierarchical understanding of tracheal anatomy can be derived by coupling lightweight localization with foundation-scale visual models. Our framework establishes a scalable foundation for standardized, autonomous surgical assistance, effectively navigating the variability of real-world ultrasound to enhance the safety and precision of robotic-assisted tracheostomy.",
   
     "featuredFigure": {
       "src": "assets/img/figures/Intro_Figure.png",
@@ -52,24 +50,6 @@
   
     "institutions": [
       {
-        "name": "Brain Tool Lab",
-        "logoSrc": "assets/img/logo/BTL_out_gif.gif",
-        "href": "https://www.braintoollab.com/",
-        "position": "center-top"
-      },
-      {
-        "name": "Duke Neurosurgery",
-        "logoSrc": "assets/img/logo/DUSOM_neurosurg.jpg",
-        "href": "https://neurosurgery.duke.edu/",
-        "position": "left-bottom"
-      },
-      {
-        "name": "Duke MEMS",
-        "logoSrc": "assets/img/logo/Duke_MEMS.jpeg",
-        "href": "https://mems.duke.edu/",
-        "position": "right-bottom"
-      },
-      {
         "name": "Duke University",
         "logoSrc": "assets/img/logo/duke.png",
         "href": "https://www.duke.edu",
@@ -89,7 +69,7 @@
       }
     ],
   
-    "acknowledgements": "The authors would like to acknowledge the help of Danyi Chen in setting up the palpation experiment and the members of the Brain Tool Lab for their feedback and comments.",
+    "acknowledgements": "This work was supported in part by the Ministry of Science and Technology (MOST) of China under Grant numbers 2025YFE0122500 and 2024YFE0216200; the Innovation and Technology Fund (ITF) of the Hong Kong SAR under Grant number MHP/185/24; the Hong Kong Research Grants Council (RGC) General Research Fund (GRF) under Grant numbers 14216022, 14204524, 14203323, and 14206125; the Research Impact Fund (RIF) under Grant number R4020-22; and the RGC Strategic Topics Grant (STG) under Grant number 1/M-405/25-N.",
   
     "authors": [
       { "name": "Devi Yuliarti",       "affil": "Duke University", "photo": "assets/authors/Devi.jpeg",     "links": ["https://www.linkedin.com/in/deviyuliarti/"], "coFirst": true },
