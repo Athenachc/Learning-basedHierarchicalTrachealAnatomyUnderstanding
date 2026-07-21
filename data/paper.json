@@ -9,7 +9,7 @@
   
     "buttons": [
       { "label": "Paper (arXiv)", "href": "https://arxiv.org/abs/2512.19010", "style": "primary" },
-      { "label": "PDF", "href": "data/PalpAid.pdf", "style": "secondary" },
+      { "label": "PDF", "href": "data/throat_cartilages_ultrasound_ICCBS2026.pdf", "style": "secondary" },
       { "label": "Video", "href": "https://youtu.be/_mmzDbw0OuI", "style": "secondary" },
       { "label": "Code", "href": "https://github.com/Athenachc/throatUltrasoundDetection", "style": "secondary" }
     ],
